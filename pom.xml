@@ -19,46 +19,22 @@
         <kernel.besa.version>3.6.0</kernel.besa.version>
     </properties>
     
-    <profiles>
-        <!-- Profile para desarrollo local con JAR del KernelBESA -->
-        <profile>
-            <id>local-dev</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>io.github.iscoutb</groupId>
-                    <artifactId>kernel-besa</artifactId>
-                    <version>${kernel.besa.version}</version>
-                    <scope>system</scope>
-                    <systemPath>${project.basedir}/../KernelBESA/target/kernel-besa-3.6.0.jar</systemPath>
-                </dependency>
-            </dependencies>
-        </profile>
-        
-        <!-- Profile para producción con GitHub Packages -->
-        <profile>
-            <id>github-packages</id>
-            <dependencies>
-                <dependency>
-                    <groupId>io.github.iscoutb</groupId>
-                    <artifactId>kernel-besa</artifactId>
-                    <version>${kernel.besa.version}</version>
-                </dependency>
-            </dependencies>
-            <repositories>
-                <repository>
-                    <id>github-iscoutb</id>
-                    <name>GitHub ISCOUTB Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/ISCOUTB/KernelBESA</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/ISCOUTB/*</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     
     <dependencies>
-        <!-- Esta sección será sobrescrita por los profiles -->
+        <dependency>
+            <groupId>io.github.iscoutb</groupId>
+            <artifactId>kernel-besa</artifactId>
+            <version>${kernel.besa.version}</version>
+        </dependency>
     </dependencies>
     
     <build>
@@ -114,7 +90,7 @@
         <!-- Publicar LocalBESA en GitHub Packages -->
         <repository>
             <id>github</id>
-            <name>GitHub LocalBESA Maven Packages</name>
+            <name>GitHub ISCOUTB Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/ISCOUTB/LocalBESA</url>
         </repository>
     </distributionManagement>

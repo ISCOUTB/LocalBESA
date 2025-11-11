@@ -1,7 +1,7 @@
 @options
 @packages
 -classpath
-'C:/Users/jairo/Proyectos/simulador/LocalBESA/../KernelBESA/target/kernel-besa-3.6.0.jar'
+'C:/Users/Andres/.m2/repository/io/github/iscoutb/kernel-besa/3.6.0/kernel-besa-3.6.0.jar'
 -encoding
 'UTF-8'
 -protected
@@ -9,14 +9,14 @@
 -source
 '21'
 -sourcepath
-'C:/Users/jairo/Proyectos/simulador/LocalBESA/src/main/java;C:/Users/jairo/Proyectos/simulador/LocalBESA/target/generated-sources/annotations'
+'C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/LocalBESA/src/main/java;C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/LocalBESA/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2025. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/jairo/Proyectos/simulador/LocalBESA/target/apidocs'
+'C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/LocalBESA/target/apidocs'
 -docencoding
 'UTF-8'
 -Xdoclint:none
@@ -28,27 +28,21 @@
 'LocalBESA 3.6.0 API'
 BESA.Local.Directory
 BESA.Local
-C:\Users\jairo\Proyectos\simulador\LocalBESA\..\KernelBESA\target\kernel-besa-3.6.0.jar = 1757555043652
-C:\Users\jairo\Proyectos\simulador\LocalBESA\src\main\java = 1757556664174
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\generated-sources\annotations = 1757556680510
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\allclasses-index.html = 1757556683899
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\allpackages-index.html = 1757556683901
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\copy.svg = 1757556683938
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\element-list = 1757556683812
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\help-doc.html = 1757556683932
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\index-all.html = 1757556683923
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\index.html = 1757556683885
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\link.svg = 1757556683939
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\member-search-index.js = 1757556683907
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\module-search-index.js = 1757556683902
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\overview-summary.html = 1757556683927
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\overview-tree.html = 1757556683881
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\package-search-index.js = 1757556683904
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\script.js = 1757556683936
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\search-page.js = 1757556683943
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\search.html = 1757556683925
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\search.js = 1757556683942
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\serialized-form.html = 1757556683848
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\stylesheet.css = 1757556683934
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\tag-search-index.js = 1757556683908
-C:\Users\jairo\Proyectos\simulador\LocalBESA\target\apidocs\type-search-index.js = 1757556683905
+C:\Users\Andres\.m2\repository\io\github\iscoutb\kernel-besa\3.6.0\kernel-besa-3.6.0.jar = 1761617823384
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\src\main\java = 1761616989232
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\generated-sources\annotations = 1761618132371
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\allclasses-index.html = 1761618140197
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\allpackages-index.html = 1761618140201
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\element-list = 1761618140086
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\help-doc.html = 1761618140248
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\index-all.html = 1761618140234
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\index.html = 1761618140178
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\member-search-index.js = 1761618140213
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\module-search-index.js = 1761618140205
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\overview-summary.html = 1761618140243
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\overview-tree.html = 1761618140173
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\package-search-index.js = 1761618140208
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\search.html = 1761618140239
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\serialized-form.html = 1761618140129
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\tag-search-index.js = 1761618140215
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\LocalBESA\target\apidocs\type-search-index.js = 1761618140210
